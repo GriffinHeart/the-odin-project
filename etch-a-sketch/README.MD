@@ -1,0 +1,5 @@
+Project: Javascript/jQuery
+
+Create a simple browser-based etch-a-sketch
+
+http://www.theodinproject.com/web-development-101/javascript-and-jquery
