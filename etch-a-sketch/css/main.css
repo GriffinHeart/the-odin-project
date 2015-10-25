@@ -1,15 +1,26 @@
-.container {
-	position: relative;
-	top: 50px;
-	width: 445px;
-	margin: auto;
+#container {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
 }
 
-.container legend {
-	margin: auto;
+.table {
+    display: table;
+    border: 1px solid black;
 }
 
-.container input, p {
-	display: inline;
-	margin: 5px;
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+}
+
+.black {
+    background-color: black;
 }
