@@ -1,13 +1,31 @@
+#button {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 50px;
+}
+
+.reset {
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 20px;
+    width: 90px;
+    height: 20px;
+}
+
 #container {
+    display: block;
     margin: auto;
     width: 500px;
     height: 500px;
-    border: 1px solid black;
 }
 
 .table {
     display: table;
     border: 1px solid black;
+    height: 100%;
+    width: 100%;
 }
 
 .row {
@@ -17,8 +35,6 @@
 .cell {
     display: table-cell;
     border: 1px solid black;
-    width: 25px;
-    height: 25px;
 }
 
 .black {
