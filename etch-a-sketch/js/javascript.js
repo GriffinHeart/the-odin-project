@@ -30,7 +30,7 @@ $(document).ready(function(){
     for (i=0; i<number; i++){
         code+= '<div class="row">';
             for (j=0; j<number; j++){
-                code+= '<div class="cell"></div>';
+                code+= '<div class ="cell"></div>';
             }
         code+='</div>';
     }
