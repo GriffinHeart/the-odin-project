@@ -20,8 +20,8 @@ $(document).ready(function(){
 
         $('#container').append(code);
     
-        $('.cell').mouseenter(function(){
-            $(this).addClass('black').fadeIn('slow');
+        $('.row div').mouseenter(function(){
+            $(this).addClass('black');
         });
     });
     
@@ -39,9 +39,7 @@ $(document).ready(function(){
 
     $('#container').append(code);
     
-    $('.cell').mouseenter(function(){
-        $(this).addClass('black').fadeIn('slow');
+    $('.row div').mouseenter(function(){
+        $(this).addClass('black');
     });
-        
-
-})
+}); 

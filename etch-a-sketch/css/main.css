@@ -1,15 +1,22 @@
-#button {
+#header {
     display: block;
     margin: auto;
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 95px;
+}
+
+h1 {
+    position: relative;
+    top: 15px;
+    font-size: 2em;
+    text-align: center;
 }
 
 .reset {
     display: block;
     position: relative;
     margin: auto;
-    top: 20px;
+    top: 30px;
     width: 90px;
     height: 20px;
 }
