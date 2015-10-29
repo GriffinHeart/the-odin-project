@@ -5,9 +5,9 @@ $(document).ready(function(){
     function getNumberMakeTable(a_number){                  /* Create a function that asks for a number, */
         number = prompt("Enter a number, bitch.");          /* uses that number for the rows and columns */
                                                             /* in a table, and then give the table life */
-        while(isNaN(number)||number==""){                  /* If the prompted number of rows and columns */
+        while(isNaN(number)||number==""){                   /* If the prompted number of rows and columns */
             alert("That's not a number, dumbshit.");        /* isn't a number or is blank, keep asking for */
-            number = prompt("Enter a number, bitch.");      /* for a number. */
+            number = prompt("Enter a number, bitch.");      /* a number. */
         } 
         
         var code = '<div class="table">';
