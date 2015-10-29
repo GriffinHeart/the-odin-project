@@ -33,6 +33,10 @@ $(document).ready(function(){
         });
     }
     
+    
+    /* End of defining the function, start of code */
+    
+    
     getNumberMakeTable(number);                 /* Run the function */
     
     $('.reset').on('click', function(){         /* Make the reset button work */
