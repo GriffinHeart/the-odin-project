@@ -6,14 +6,17 @@ $(document).ready(function(){
         
         number = prompt("Enter a number, foo'.");          /* uses that number for the rows and columns */
                                                             /* in a table, and then give the table life */
-        while(isNaN(number)||number==""){                   /* If the prompted number of rows and columns */
-            alert("That's not a number, foo'.");        /* isn't a number or is blank, keep asking for */
-            number = prompt("Enter a number. Now.");      /* a number. */
-        } 
         
-        while(number>100){                              /* If the prompted number of rows and columns */
-            alert("That number's too big, yo.");        /* is over 100, ask for a new number*/
-            number = prompt("Enter a number. Now.");      
+        while(isNaN(number)||number==""||number > 100){    /* If the prompted number of rows and columns isn't a number or is blank or is too large, keep asking for a number. */
+            if (isNaN(number)||number==""){
+                alert("That's not a number, foo'.");        /* If it's not a number then prompt for a number */
+                number = prompt("Enter a number. Now.");    
+            }
+            else
+            {
+                alert("That number's too big, yo.");        /* If the prompted number of rows and columns */
+                number = prompt("Enter a number. Now.");        /* is over 100, ask for a new number*/
+            }
         }
         
         var code = '<div class="table">';                   /* Make that table */
